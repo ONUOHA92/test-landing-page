@@ -1,0 +1,596 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    height: 84px;
+    color: #FFFFFF;
+    padding: 25px 32px;
+    left: 835px;
+    top: 0px;
+}
+
+.nav {
+    padding-right: 70px;
+}
+
+.nav .nav-item .active {
+    color: #555555;
+}
+
+.nav .nav-item .nav-link {
+    color: #555555;
+}
+
+.nav .nav-item .signup-link {
+    border: 1px solid #FF6634;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.nav .nav-item .signup-link {
+    color: #FF6634;
+}
+
+.main-back {
+    height: 735px;
+    top: 33px;
+    background-color: #FFEBFF;
+}
+
+.col .section-1 {
+    margin-left: 200px !important;
+}
+
+.grow-business {
+    margin-top: 128px;
+}
+
+.grow-business h2 {
+    width: 490px;
+    height: 98px;
+    top: 211px;
+    left: 159px;
+    font-family: Montserrat;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 48.76px;
+}
+
+.grow-business p {
+    width: 482px;
+    height: 38px;
+    top: 315px;
+    left: 159px;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-style: normal;
+    font-style: 16px;
+    line-height: 19.5px;
+}
+
+.input-group {
+    width: 556px !important;
+    display: inline-block;
+    background-color: white;
+    height: 72px;
+}
+
+.input-group input[type="text"] {
+    width: 75%;
+    border: none;
+    padding: 10px;
+    font-family: Montserrat;
+    border-radius: 6px;
+}
+
+.input-group .input-group-text {
+    background-color: #FF6634 !important;
+    color: #FFFFFF;
+    width: 133px;
+    height: 58px;
+    position: absolute;
+    right: 4px;
+    top: 7px;
+    border-radius: 4px;
+}
+
+.Already-account {
+    margin-top: 34px;
+}
+
+.Already-account h3 {
+    width: 267px;
+    height: 20px;
+    font-weight: 400;
+    font-family: Montserrat;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.Already-account h3 span a {
+    text-decoration: none;
+    color: #FF6634;
+}
+
+.text-container {
+    margin-top: 129px;
+    position: relative;
+}
+
+.text-container .img-1 {
+    position: absolute;
+    left: -40px;
+    top: 0px;
+}
+
+.text-container .img-2 {
+    position: absolute;
+    left: -25px;
+    top: 0px;
+}
+
+.text-container .img-3 {
+    position: absolute;
+    left: 55%;
+    top: 50px;
+}
+
+.text-container .img-4 {
+    position: absolute;
+    left: 58%;
+    top: 50px;
+}
+
+.gallery-container {
+    position: relative;
+}
+
+.first-card {
+    position: absolute;
+    bottom: 250px;
+    left: 10;
+}
+
+.gallery-content .small-icon {
+    position: absolute;
+    top: 150px !important;
+    left: 20%;
+}
+
+.gallery-content .big-icon {
+    position: absolute;
+    top: 170px !important;
+    left: 80%;
+}
+
+/* /////////////////// */
+
+.main-two-back {
+    margin-top: 130px;
+}
+
+/* .main-two-back h3 {
+      text-align: center;
+  } */
+
+#Featured {
+    font-family: Montserrat;
+    height: 35px;
+    text-align: center !important;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 29px;
+    line-height: 35.35px;
+    color: #303030;
+}
+
+.review {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 17.07px;
+}
+
+.card-container-1 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 50px;
+    margin: 10px;
+}
+
+.card-item-1 {
+    width: 290px;
+    height: 225px;
+    background: #FFFFFF;
+    border: 1px solid #FBFBFB;
+    box-sizing: border-box;
+    box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.04);
+    border-radius: 6px;
+}
+
+.card-container-2 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 50px;
+    margin: 10px;
+}
+
+.first-star {
+    display: flex;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.first-star p {
+    width: 18px;
+    height: 13px;
+    font-size: 11px;
+    font-weight: 700;
+    font-style: normal;
+    margin-left: 5px;
+}
+
+.social-item {
+    display: flex;
+    padding: 10px;
+    margin-top: -10px;
+}
+
+.mail-col {
+    margin-top: 4px;
+}
+
+.sexual-assult {
+    width: 101px;
+    height: 19;
+    background-color: #FF66340D;
+    font-size: 12px;
+    padding: 5px;
+}
+
+.container-line {
+    width: 289px;
+    height: 70px;
+    background: #FCFCFC;
+}
+
+.person-container {
+    display: flex;
+    width: 289px;
+    justify-content: space-evenly;
+}
+
+.info {
+    background-color: #FCFCFC;
+    border-top-width: 1px solid #F9F9F9;
+    width: 289px;
+    height: 77px;
+    padding: 10px;
+}
+
+.info p {
+    padding: -40px;
+    margin-right: 40px;
+}
+
+.card-item-2 {
+    width: 290px;
+    height: 225px;
+    background: #FFFFFF;
+    border: 1px solid #FBFBFB;
+    box-sizing: border-box;
+    box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.04);
+    border-radius: 6px;
+}
+
+#subscriber-container {
+    height: 380px;
+    background-color: #F8F8F8;
+}
+
+.subcribe-new {
+    margin-left: 20%;
+    margin-top: 10%;
+}
+
+.subscribe-new h2 {
+    width: 432px;
+    height: 35px;
+    font-family: Montserrat;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 29px;
+    line-height: 35.35px;
+}
+
+.subscribe-new p {
+    width: 557px;
+    height: 45px;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #8D8D8D;
+}
+
+.input {
+    display: flex;
+}
+
+.input input[type='text'] {
+    width: 479px;
+    height: 54px;
+    outline: none;
+    padding: 10px;
+    border-radius: 6px;
+    border: #FFFFFF;
+    color: #DEDEDE;
+}
+
+.input a {
+    text-decoration: none;
+    margin-left: 15px;
+    background-color: #FF6634;
+    width: 133px;
+    height: 54px;
+    color: #FFFFFF;
+    padding: 15px 30px;
+}
+
+.main-container {
+    margin-left: 200px;
+    margin-top: 20%;
+}
+
+#sponsored-company {
+    height: 133px;
+    background-color: #FEFEFE;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #F4F4F4;
+    justify-content: space-evenly;
+    margin-bottom: 131px;
+}
+
+.sponsored-item4 {
+    margin-top: -10px;
+}
+
+.addverstisment-content {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 138.31px;
+}
+
+.addvert-container {
+    background: #FBFBFB;
+    width: 387.62px;
+    height: 317.69px;
+    border: 1px solid #D6D6D6;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.addvert-container h3 {
+    text-align: center;
+    margin-top: 40%;
+    color: #C2C2C2;
+}
+
+#create-account {
+    background: #FFEBFF;
+    border: 1px solid #FFEBFF;
+    box-sizing: border-box;
+    border-radius: 8px;
+    height: 188px;
+    margin-left: 179px;
+    margin-right: 179px;
+    margin-bottom: 107px;
+}
+
+.acct-container {
+    margin: 64px 0px 64px 91px;
+}
+
+.acct-container p {
+    width: 389px;
+    height: 60px;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    line-height: 30.48px;
+    color: #303030;
+}
+
+.icons-container {
+    position: relative;
+}
+
+.icons-container .button {
+    position: absolute;
+    z-index: 1;
+    width: 223px;
+    border-radius: 4px;
+    height: 54px;
+    padding: 15px 20px 10px 40px;
+    top: 74px;
+    right: 80px;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #FF6634;
+}
+
+.footer {
+    background-color: #1F2131;
+    height: 500px;
+}
+
+.footer-content {
+    margin-top: 141px;
+}
+
+.footer-content p {
+    width: 379px;
+    font-family: Montserrat;
+    height: 67px;
+    margin-left: 91px;
+    color: white;
+}
+
+.footer-content .copy-right {
+    color: gray;
+    margin-top: 158px;
+    font-family: Montserrat;
+}
+
+.company-container h4 {
+    font-family: Montserrat;
+    margin-top: 87px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 19px;
+}
+
+.featured-container h4 {
+    font-family: Montserrat;
+    margin-top: 87px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 19px;
+}
+
+.contact-us h4 {
+    font-family: Montserrat;
+    margin-top: 87px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 19px;
+}
+
+@media only screen and (min-width) {}
+
+@media only screen and (min-width) {}
+
+@media only screen and (max-width: 506px) {
+    .nav {
+        padding: 0px !important;
+        margin-right: 40px;
+    }
+    .grow-business h2 {
+        width: 490px;
+        height: 98px;
+        top: 211px;
+        left: 159px;
+        font-family: Montserrat;
+        font-weight: 900;
+        font-style: normal;
+        font-size: 30px;
+        line-height: 30.76px;
+    }
+    .input-group {
+        width: 470px !important;
+        display: inline-block;
+        background-color: white;
+        height: 72px;
+    }
+    .input-group input[type="text"] {
+        width: 75%;
+        border: none;
+        padding: 10px;
+        font-family: Montserrat;
+        border-radius: 6px;
+    }
+    .input-group .input-group-text {
+        background-color: #FF6634 !important;
+        color: #FFFFFF;
+        width: 133px;
+        height: 58px;
+        position: absolute;
+        right: 4px;
+        top: 7px;
+        border-radius: 4px;
+    }
+    .Already-account {
+        margin-top: 20px;
+    }
+    .text-container {
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+    .gallery-container {
+        display: none;
+    }
+    .card {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (min-width:360px) {
+    .nav {
+        padding: -15px !important;
+        margin-left: -30px;
+    }
+    .nav-item {
+        font-size: 9px;
+    }
+    .input-group {
+        width: 320px !important;
+        height: 55px;
+    }
+    .input-group .input-group-text {
+        background-color: #FF6634 !important;
+        color: #FFFFFF;
+        width: 70px;
+        height: 40px;
+        position: absolute;
+        right: 4px;
+        top: 7px;
+        border-radius: 4px;
+    }
+    .text-container .img-3 {
+        position: absolute;
+        left: 56%;
+        top: 100px;
+    }
+    .text-container .img-4 {
+        position: absolute;
+        left: 60%;
+        top: 100px;
+    }
+    #subscriber-container {
+        height: 500px;
+    }
+    .subcribe-new {
+        margin-left: 4%;
+        margin-top: 10%;
+    }
+    .main-container {
+        margin-left: 50px;
+        width: 200px;
+        height: 200px;
+    }
+    #sponsored-company {
+        height: 500px;
+        margin-top: 200px;
+    }
+    
+.addverstisment-content{
+    margin-top: 20px;
+}
+}
